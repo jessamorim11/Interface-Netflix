@@ -1,0 +1,96 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color:  white;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 5px;
+}
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header nav a:hover{
+    color: #fff;
+}
+
+/* coisas relacionadas ao filme principal*/
+.serie-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/Img/caslte2.jpg');
+    height: 570px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.sinopse {
+    margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 42rem;
+}
+.titulo {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.botoes{
+    margin-bottom: 40%;
+}
+.botao {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 7%;
+    margin-right: 4px;
+    cursor: pointer;
+}
+.botao1 {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 4%;
+    cursor: pointer;
+    
+}
+.botao1:hover {
+    background: rgb(92, 89, 89);
+    color:white;
+}
+.botao:hover {
+    background: lightgray;
+    color: black;
+}
+.botao i{
+    margin-right: 5px;
+}
+.botao1 i{
+    margin-right: 5px;
+}
