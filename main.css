@@ -1,6 +1,6 @@
 :root{
     --vermelho: #E50914;
-    --preto: #141414;
+    --preto: black;
 }
 * {
     margin: 0;
@@ -18,11 +18,19 @@ header .container{
     align-items: center;
     justify-content: space-between;
 }
-header .logo{
-    color: var(--vermelho);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
+
+header .nome{
+    width: 12%;
     margin-left: 5px;
+    margin-top: 5px;
+}
+header .menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header .menu1{
+    margin-left: 20px;
 }
 header nav a{
     text-decoration: none;
